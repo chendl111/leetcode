@@ -7,7 +7,7 @@ LeetCode Solution\n\
 \n\
 \n\
 | #    |                  Title                   |                                 Solution |\n\
-| :--- | :--------------------------------------: | ---------------------------------------: |\n" >> README.md
+| :--- | :--------------------------------------: | ---------------------------------------: |" >> README.md
 ls algorithms| grep '^[0-9]'|sort -n|while read line
 do
     title=`echo ${line}|cut -d . -f 2`
