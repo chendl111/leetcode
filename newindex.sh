@@ -1,4 +1,6 @@
 #! /bin/bash
+#插入索引，请根据自己的目录结构修改
+# 暂时不可用
 for num in $*
 do
     all=$(ls algorithms|sort -n)
